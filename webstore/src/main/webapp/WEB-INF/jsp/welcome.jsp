@@ -16,6 +16,7 @@
 				<p>${tagline}</p>
 			</div>
 		</div>
+			<p>${gitline}</p>
 	</section>
 </body>
 </html>
