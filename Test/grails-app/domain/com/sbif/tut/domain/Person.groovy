@@ -1,11 +1,15 @@
+/**
+ * 
+ */
 package com.sbif.tut.domain
 
+/**
+ * @author Koen
+ *
+ */
 class Person {
-	
 	String firstName
 	String lastName
-	int age
-
-    static constraints = {
-    }
+	Date dateOfBirth
+	double salary
 }
