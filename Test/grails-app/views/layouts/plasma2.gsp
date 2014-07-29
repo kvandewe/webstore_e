@@ -85,14 +85,14 @@
 					<div class="fullwidthbanner">
 						<ul>
 							<!-- SLIDEUP -->
-							<li data-transition="slide-Up" data-slotamount="1" data-thumb="img/revslider/transparent.png">
-								<img src="img/revslider/1.jpg" alt="sa">
+							<li data-transition="slide-Up" data-slotamount="7" data-thumb="img/revslider/transparent.png">
+								<img src="img/revslider/SBIF_Image.png" alt="sa">
 								<!-- 
-								<div class="tp-caption plasma_def lft" data-x="300" data-y="130" data-speed="700" data-start="1200" data-easing="easeOutExpo">
+								<div class="tp-caption plasma_def lft" data-x="600" data-y="200" data-speed="300" data-start="1200" data-easing="easeOutExpo">
 									<g:layoutBody/>
 								</div>
 	-->	
-								<div class="tp-caption plasma_inverse lfl" data-x="20" data-y="20" data-speed="600" data-start="1900" data-easing="easeOutBack">
+								<div class="tp-caption plasma_inverse lfl" data-x="300" data-y="20" data-speed="600" data-start="1900" data-easing="easeOutBack">
 									<g:layoutBody/>
 								</div>
 	 							<!-- 
@@ -131,8 +131,9 @@
 							</li>
 -->
 							<!-- RANDOM ROTATION -->
+							<!--  -->
 							<li data-transition="randomrotate" data-slotamount="6" data-thumb="img/revslider/transparent.png">
-								<img class="tp-caption lfl" src="img/revslider/2.jpg" alt="tiga">
+								<img class="tp-caption lfl" src="img/revslider/SBIF_Image.png" alt="tiga">
 								<div class="caption large_black_text sft tp-caption start"  data-x="0" data-y="80" data-speed="700" data-start="1200" data-easing="easeOutBack">
 									VIDEO PRESENT YOUR
 								</div>
@@ -209,7 +210,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="span12">
-					<h4>Welcome to <span class="bold">Plasma</span>. <span class="colDefault">Clean and Multi-Purpose</span> Template</h4>
+					<h4>Welcome to <span class="bold">StoreBox InFlight</span>. <span class="colDefault">Clean and Multi-Purpose</span> Template</h4>
 					<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
 
 					<!--DIVIDER-->

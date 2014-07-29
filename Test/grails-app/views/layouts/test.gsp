@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title><g:layoutTitle default="Grails"/></title>
+		<title><g:layoutTitle default="Koen Default Title"/></title>
 		<style>
 			#header {background-color:#ffe0e0;text-align: center;}
 			#footer {background-color:#e0e0ff;text-align: center;}

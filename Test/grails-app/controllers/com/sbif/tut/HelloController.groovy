@@ -2,19 +2,23 @@ package com.sbif.tut
 
 import groovy.util.logging.Log
 
+import org.springframework.stereotype.Controller
+
 import com.sbif.tut.domain.Person
 
 @Log
+//@Controller
 class HelloController {
 
 	def index() {
 		def list =[]
 		Person person = new Person(firstName:'Koen', lastName:'Van de Weyer', age:44)
 		list << person
-		list << new Person(firstName: 'John', lastName:'Doe', age:50)
-		list << new Person(firstName: 'Jane', lastName:'Smith', age:45)
-		list << new Person(firstName: 'Sam', lastName:'Robinson', age:47)
+//		list << new Person(firstName: 'John', lastName:'Doe', age:50)
+//		list << new Person(firstName: 'Jane', lastName:'Smith', age:45)
+//		list << new Person(firstName: 'Sam', lastName:'Robinson', age:47)
 		[list:list]
+//		[person:person]
 	}
 
 	def save(Person person) {
