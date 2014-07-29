@@ -16,7 +16,7 @@ createTagBody(1, {->
 printHtmlPart(1)
 createTagBody(2, {->
 createTagBody(3, {->
-invokeTag('layoutTitle','g',5,['default':("Grails")],-1)
+invokeTag('layoutTitle','g',5,['default':("Koen Default Title")],-1)
 })
 invokeTag('captureTitle','sitemesh',5,[:],3)
 })
@@ -40,7 +40,7 @@ protected void init() {
 	this.jspTags = JSP_TAGS
 }
 public static final String CONTENT_TYPE = 'text/html;charset=UTF-8'
-public static final long LAST_MODIFIED = 1406639586441L
+public static final long LAST_MODIFIED = 1406649487370L
 public static final String EXPRESSION_CODEC = 'html'
 public static final String STATIC_CODEC = 'none'
 public static final String OUT_CODEC = 'html'
