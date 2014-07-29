@@ -10,6 +10,6 @@ package com.sbif.tut.domain
 class Person {
 	String firstName
 	String lastName
-	Date dateOfBirth
-	double salary
+//	Date dateOfBirth
+	int age;
 }

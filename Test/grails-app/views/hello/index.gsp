@@ -18,20 +18,23 @@
 				<th>First Name</th>
 				<th>Age</th>
 			</tr>
-			<g:each in="${list}" var="person" status="nr">
+			<g:each in="${list}" var="passenger" status="nr">
 				<tr>
 
 					<td>
 						${nr}
 					</td>
 					<td>
-						${person.lastName}
+						${passenger.lastName}
 					</td>
 					<td>
-						${person.firstName}
+						${passenger.firstName}
 					</td>
 					<td>
-						${person.age}
+						${passenger.age}
+					</td>
+					<td>
+						${passenger.mainEmail}
 					</td>
 
 				</tr>
