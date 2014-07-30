@@ -3,7 +3,6 @@ package com.sbif.tut
 import groovy.util.logging.Log
 
 import com.sbif.tut.domain.Passenger
-import com.sbif.tut.domain.Person2
 
 @Log
 class HelloController {
@@ -18,11 +17,11 @@ class HelloController {
 	}
 
 	def hi() {
-		
+		render 'Hi'
 	}
 	
 	def save(Passenger passenger) {
-		Log .info ${passenger.firstName}, ${passenger.age}
+//		Log .info ${passenger.firstName}, ${passenger.age}
 	}
 	
 	def displayForm() {
