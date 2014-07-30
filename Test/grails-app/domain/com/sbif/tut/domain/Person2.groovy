@@ -4,7 +4,7 @@ class Person2 {
 	
 	String firstName
 	String lastName
-	int age
+//	int age
 
     static constraints = {
     }

@@ -6,24 +6,29 @@ import com.sbif.tut.domain.Passenger
 import com.sbif.tut.domain.Person2
 
 @Log
-//@Controller
 class HelloController {
 
 	def index() {
 		def list =[]
-		Passenger pgr = Passenger.find(mainEmail:'koenvandeweyer@gmail.com')
-		list << pgr
+		Passenger passenger = Passenger.find(mainEmail:'koenvandeweyer@gmail.com')
+		list << passenger
+		passenger = new Passenger (firstName:'Olivia', lastName:'Van de Weyer', age:10)
+		list << passenger
 		[list:list]
 	}
 
-	def save(Passenger person) {
-		Log .info ${person.firstName}, ${person.age}
+	def hi() {
+		
+	}
+	
+	def save(Passenger passenger) {
+		Log .info ${passenger.firstName}, ${passenger.age}
 	}
 	
 	def displayForm() {
 		// just provide value for age. First Name and Last name are blanks.
-		Passenger person = new Passenger(age:55)
-		[ person:person ]
+		Passenger passenger = new Passenger(age:55)
+		[ passenger:passenger ]
 	}
 	
 }

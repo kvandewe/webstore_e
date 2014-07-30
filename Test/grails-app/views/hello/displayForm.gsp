@@ -7,7 +7,7 @@
 </head>
 <body>
 	<div class="body">
-		<g:form action="save">
+		<g:form action="index">
 			<label for="lastName">Last Name</label>
 			<g:textField name="lastName" value="${person.lastName}" />
 			<br />
