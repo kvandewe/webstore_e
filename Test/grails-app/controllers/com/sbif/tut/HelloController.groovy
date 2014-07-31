@@ -9,10 +9,11 @@ class HelloController {
 
 	def index() {
 		def list =[]
-		Passenger passenger = Passenger.find(mainEmail:'koenvandeweyer@gmail.com')
-		list << passenger
-		passenger = new Passenger (firstName:'Olivia', lastName:'Van de Weyer', age:10)
-		list << passenger
+		list = Passenger.list()
+//		Passenger passenger = Passenger.findByEmail(mainEmail:'koenvandeweyer@gmail.com')
+//		list << passenger
+//		passenger = new Passenger (firstName:'Olivia', lastName:'Van de Weyer', age:10)
+//		list << passenger
 		[list:list]
 	}
 

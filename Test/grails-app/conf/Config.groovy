@@ -102,7 +102,15 @@ log4j.main = {
     //appenders {
     //    console name:'stdout', layout:pattern(conversionPattern: '%c{2} %m%n')
     //}
-
+	log4j = {
+		appenders {
+			file name:'file', file:'D:/DEV/logs/test.log'
+		}
+		root {
+			error 'stdout', 'file'
+		}
+	}
+	
     error  'org.codehaus.groovy.grails.web.servlet',        // controllers
            'org.codehaus.groovy.grails.web.pages',          // GSP
            'org.codehaus.groovy.grails.web.sitemesh',       // layouts

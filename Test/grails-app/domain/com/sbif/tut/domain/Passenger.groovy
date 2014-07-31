@@ -9,6 +9,6 @@ package com.sbif.tut.domain
  */
 class Passenger extends Person {
 
-	String mainEmail
+	String email
 	//link to CUPID
 }
