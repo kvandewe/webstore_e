@@ -33,15 +33,17 @@ createTagBody(1, {->
 printHtmlPart(6)
 loop:{
 int nr = 0
-for( person in (list) ) {
+for( p in (list) ) {
 printHtmlPart(7)
 expressionOut.print(nr)
 printHtmlPart(8)
-expressionOut.print(person.lastName)
+expressionOut.print(p?.lastName)
 printHtmlPart(8)
-expressionOut.print(person.firstName)
+expressionOut.print(p?.firstName)
 printHtmlPart(8)
-expressionOut.print(person.age)
+expressionOut.print(p?.age)
+printHtmlPart(8)
+expressionOut.print(p?.email)
 printHtmlPart(9)
 nr++
 }
@@ -54,7 +56,7 @@ printHtmlPart(12)
 }
 printHtmlPart(13)
 })
-invokeTag('captureBody','sitemesh',52,[:],1)
+invokeTag('captureBody','sitemesh',55,[:],1)
 printHtmlPart(14)
 }
 public static final Map JSP_TAGS = new HashMap()
@@ -62,7 +64,7 @@ protected void init() {
 	this.jspTags = JSP_TAGS
 }
 public static final String CONTENT_TYPE = 'text/html;charset=UTF-8'
-public static final long LAST_MODIFIED = 1406649523581L
+public static final long LAST_MODIFIED = 1406690938451L
 public static final String EXPRESSION_CODEC = 'html'
 public static final String STATIC_CODEC = 'none'
 public static final String OUT_CODEC = 'html'

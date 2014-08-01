@@ -40,7 +40,7 @@ printHtmlPart(7)
 invokeTag('submitButton','g',20,['name':("create"),'value':("Save")],-1)
 printHtmlPart(8)
 })
-invokeTag('form','g',21,['action':("save")],2)
+invokeTag('form','g',21,['action':("index")],2)
 printHtmlPart(9)
 })
 invokeTag('captureBody','sitemesh',23,[:],1)
@@ -51,7 +51,7 @@ protected void init() {
 	this.jspTags = JSP_TAGS
 }
 public static final String CONTENT_TYPE = 'text/html;charset=UTF-8'
-public static final long LAST_MODIFIED = 1406574724540L
+public static final long LAST_MODIFIED = 1406674470722L
 public static final String EXPRESSION_CODEC = 'html'
 public static final String STATIC_CODEC = 'none'
 public static final String OUT_CODEC = 'html'
