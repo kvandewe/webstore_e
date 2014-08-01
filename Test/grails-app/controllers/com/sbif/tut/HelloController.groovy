@@ -1,5 +1,7 @@
 package com.sbif.tut
 
+import java.lang.ref.ReferenceQueue.Null;
+
 import groovy.util.logging.Log
 
 import com.sbif.tut.domain.Passenger
@@ -10,6 +12,7 @@ class HelloController {
 	def index() {
 		def list =[]
 		list = Passenger.list()
+		list = null
 //		Passenger passenger = Passenger.findByEmail(mainEmail:'koenvandeweyer@gmail.com')
 //		list << passenger
 //		passenger = new Passenger (firstName:'Olivia', lastName:'Van de Weyer', age:10)
